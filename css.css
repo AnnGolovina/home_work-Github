@@ -35,7 +35,7 @@ input{
     font-size: 15px;
 }
 input:focus{
-    border-color: #6c6c6c;
+    outline: 1px solid gray;
 }
 button{
     width: 200px;
@@ -51,4 +51,7 @@ button{
 }
 button:hover{
     background: #d11919;
+}
+button:focus{
+    outline: 1px solid gray;
 }
